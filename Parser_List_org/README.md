@@ -1,6 +1,7 @@
 # Тестовое задание:
 Спарсить отзывы с сайта.
 https://http://www.list-org.com 
+
 Юридическое наименование, Руководитель, Дата регистрации, Статус, ИНН, КПП, ОГРН.
 
 На вход передается ссылка типа:
@@ -18,6 +19,7 @@ Depends on:
 `pip install -r requirements.txt`
 
 example:
+
 `python Parcer_list_org.py https://http://www.list-org.com/company/4868135`
 
 Pay your attention
