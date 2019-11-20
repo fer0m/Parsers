@@ -1,11 +1,11 @@
 # Тестовое задание:
 Спарсить отзывы с сайта.
-https://http://www.list-org.com 
+https://www.list-org.com 
 
 Юридическое наименование, Руководитель, Дата регистрации, Статус, ИНН, КПП, ОГРН.
 
 На вход передается ссылка типа:
-https://http://www.list-org.com/company/4868135
+https://www.list-org.com/company/4868135
 
 Parser
 Simple parser to get reviews from bookmaker-ratings.
