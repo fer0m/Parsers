@@ -20,7 +20,7 @@ Depends on:
 
 example:
 
-`python Parcer_list_org.py https://http://www.list-org.com/company/4868135`
+`python Parcer_list_org.py http://www.list-org.com/company/4868135`
 
 Pay your attention
 `path = "C:\chromedriver.exe"`
