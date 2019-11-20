@@ -115,11 +115,11 @@ def get_info():
 
     return total_result
 
-# Функция записи в файл
+# Функция записи/дозаписи в файл
 def csv_writer(data):
     FILENAME = "Database.csv"
 
-    with open(FILENAME, "w", newline="") as file:
+    with open(FILENAME, "a", newline="") as file:
         writer = csv.writer(file, delimiter=';')
         writer.writerows(data)
 
