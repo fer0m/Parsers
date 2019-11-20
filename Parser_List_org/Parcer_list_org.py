@@ -4,6 +4,7 @@ import re
 import csv
 from selenium import webdriver
 import sys
+from datetime import datetime
 
 # Создаем словарь с xpath, для удобного поиска в случае изменений на сайте.
 xpath_dict = {
@@ -126,6 +127,10 @@ def csv_writer(data):
 
 if __name__ == "__main__":
     web_site = sys.argv[1]
+    start_time = datetime.now()
     driver = init_driver()
     csv_writer(get_info())
-    time.sleep(5)
+    end_time = datetime.now()
+    print("Время начала парсинга: ", start_time)
+    print("Время завершения парсинга: ", end_time)
+    print("Время исполнения: ", end_time - start_time)
